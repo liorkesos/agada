@@ -1,0 +1,10 @@
+<?php
+/**
+ * @file
+ * Install, update, and uninstall functions for the field_example module.
+ */
+
+function custom_image_field_schema($field) {
+   dpm("custom_image_field_schema");
+	dpm($field);
+ }

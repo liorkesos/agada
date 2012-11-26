@@ -1,0 +1,6 @@
+name = Custom Wysiwyg
+description = Provides custom Wysiwyg functionality like additional buttons.
+package = Custom
+dependencies[] = wysiwyg
+core = 7.x
+version = "7.x-1.0"

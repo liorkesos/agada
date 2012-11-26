@@ -1,0 +1,2356 @@
+﻿@charset "utf-8";
+/**
+ * @file
+ * Block Styling
+ */
+
+#
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1.5em;
+ 
+}
+
+.region-sidebar-second .section .block{ margin-bottom:13px;}
+
+.sidebar .section .block{ 
+	border:1px solid #d6d6d6;
+	-moz-box-shadow: 0 0 1px 1px #d6d6d6;
+	-webkit-box-shadow: 0 0 1px 1px #d6d6d6;
+	box-shadow: 0 0 1px 1px #d6d6d6;
+	padding:2px;
+	height:auto;
+	background:#fff;
+}
+
+#block-custom-agada-agada-hello-user{margin:21px 0 0 0;}
+
+.page-kids-frontpage #block-views-most-viewed-contents-kids-block{
+	width:335px;
+	height:400px;
+	/*float:right;*/
+	/*margin:0 0 0 0;*/
+	background:url(../images/kids/kids_mainpage_popular_title.png) no-repeat center top #fff;
+	border: 1px solid #a2aab5;
+	padding:46px 7px 0 0;
+	}
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+#block-views-last-comments-block {
+	width:320px;
+	height:400px;
+	/*float:right;*/
+	margin:0 0 0 0;
+	/*background:#fff;*/
+	border:1px solid #cccaca;
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title */ {
+	color:#506CA6;
+	font-size:15px;
+
+}
+
+.sidebar .section h2.block-title{
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	padding:2px 0 2px 0;
+	}
+	
+#block-custom-wysiwyg-tooltip-box h2{background:#ec9a23;}	
+#block-views-related-agada-stories-block h2{background:#7ba4d8;}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node.node-type-agada-story #block-views-external-related-links-block h2{background:#c96043;}
+#block-views-more-bibliography-block h2{background:#919c7e;}
+
+.block .content /* Block's content wrapper */ {
+}
+
+.sidebar .section .block .content{
+	padding:2px 5px 2px 5px;
+	color:#494E7D;
+	font-size:13px;
+	background:#fff;
+	height:95px;
+	overflow:hidden;
+	line-height:18px;
+	}
+.sidebar .section .block .content > div{height:92px;}
+.sidebar .section .block > div , .sidebar .section .block > div{height:119px;}
+.sidebar .section .block .content.open_block_content{height:462px;}
+	
+.sidebar .section .block .content a{
+	color:#494E7D;text-decoration:none;
+	font-size:14px;
+	}
+.sidebar .section .block .content a:hover{text-decoration:underline;}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-block-1 /* First block created with "Add block" link */ {
+}
+
+#block-blog-recent /* "Recent blog posts" block */ {
+}
+
+#block-book-navigation /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-recent /* "Recent comments" block */ {
+}
+
+#block-forum-active /* "Active forum topics" block */ {
+}
+
+#block-forum-new /* "New forum topics" block */ {
+}
+
+#block-locale-language /* Language switcher block */ {
+}
+
+#block-menu-menu-NAME /* Custom menu block  */ {
+}
+
+#block-node-recent /* "Recent content" block */ {
+}
+
+#block-node-syndicate /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */ {
+}
+
+#block-poll-recent /* "Most recent poll" block */ {
+}
+
+#block-profile-author-information /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-form /* "Search form" block */ {
+}
+
+#block-shortcut-shortcuts /* "Shortcuts" block */ {
+}
+
+#block-statistics-popular /* "Popular content" block */ {
+}
+
+#block-system-main-menu /* "Main menu" block */ {
+}
+
+#block-system-management /* "Management" block for Drupal management menu */ {
+}
+
+#block-system-navigation v {
+}
+
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+}
+
+#block-system-help /* "System help" block */ {
+}
+
+#block-system-main /* "Main page content" block */ {
+}
+
+#block-system-powered-by /* "Powered by Drupal" block */ {
+}
+
+#block-user-login /* "User login form" block */ {
+}
+
+#block-user-new /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-online /* "Who's online" block for a list of the online users */ {
+}
+
+.open_close_block , .open_close_comment{float:left;margin: 1px 5px 5px 5px;cursor:pointer;color:#58666a;display:none;width:39px;} 
+.open_close_comment{margin:15px 0 0 10px;}
+.open_close_block img , .open_close_comment img{margin:3px 3px 0 0;float:left;}
+.close , .close_comment{display:none;width:56px;margin:5px -15px 5px 5px;}
+
+.field-collection-view{margin:0 0 0 0;padding:0 0 0 0;}
+.field-collection-view .content a , .field-collection-view .content p{margin:0 0 0 0;padding:0 0 0 0;height:20px;}
+
+ 
+/* --------------local area------------------------*/
+/*.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-18.page-user-edit.section-user  #block-system-main .content
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-18.page-user-edit.section-user #block-system-main*/
+/*.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-18.section-user #block-system-main .content .profile-block
+{
+	
+	background:white;
+	width:252px;
+	float:left;
+	border-top:1px #C7C7C7 solid;
+	border-left:1px #C7C7C7 solid;	
+	border-bottom:1px #C7C7C7 solid;
+	border-right:1px #C7C7C7 solid;
+
+	display:block;
+	position:absolute;
+	left:45px;
+}*/
+
+.not-logged-in .region-content #block-system-main
+{
+	margin:0;
+	
+	float:right;
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user #block-system-main .content .profile-block1
+{
+
+/*	border-top:5px red solid;
+	border-left:1px #C7C7C7 solid;	
+	border-bottom:1px #C7C7C7 solid;
+	border-right:1px #C7C7C7 solid
+*/	width:242px;
+	margin:0px;
+	height: auto;
+	border:5px white solid;
+	color:#46658E; 
+	/*position:absolute;
+	left:45px;
+	top:188px;*/
+	background:#FFFFFF;
+}
+
+.logged-in .region-content #block-system-main .content .profile-details dt
+{
+
+	color:#5B6264;
+}
+.logged-in .region-content #block-system-main .content .profile-details dd
+{
+	color:#A4473D;
+}
+
+
+.logged-in .region-content #block-system-main .content .field-label
+{
+	color:#5B6264;
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user #block-system-main .content .profile
+{
+	border:5px #919C7D solid;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.logged-in .region-content #block-system-main .user-picture
+{
+	background-image: url('../images/prifile-background.png');
+	width:232px;
+	margin:0px
+}
+
+.logged-in #block-system-main
+{
+	height: auto;
+}
+
+.logged-in .region-content #block-system-main .user-picture img
+{
+	width:90px;
+	margin:10px;
+}
+
+.logged-in .region-content #block-system-main hr 
+
+{
+	border-width:0px;
+	background-color:#6F873F;
+	width:91%;
+	margin:0px 10px 5px 10px;
+	float:right;
+	
+}
+
+.logged-in .region-content #block-system-main .profile-details
+
+{
+	padding:10px;
+}
+
+.html.not-front.logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories #block-views-all-kids-stories-block 
+{
+	width:auto;
+	float:none;
+}
+
+
+.logged-in .region.region-content #block-views-stories-commented-by-user-block, .logged-in .region.region-content .block.block-views.first.odd/*, .logged-in .region.region-content .block.block-views.even*/
+{
+	width:500px;
+	float:right;
+}
+
+.logged-in #content
+{
+	/*width:870px;*/
+}
+
+.logged-in .region.region-content 
+{
+	color:#494949;
+}
+
+.logged-in .region.region-content .field-content a
+
+{
+text-decoration:none;
+color:#494949;
+}
+
+.logged-in .item-list li
+{
+
+font-size:14px;
+margin:10px;
+color:#494949;
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user #block-system-main .content {
+
+background-color:#F1F1F1;
+
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user.page-user-edit #block-system-main .content {
+
+background-color:#Ffffff;
+/*height: auto;*/
+height:1170px;
+}
+
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user.page-user-edit .password-strength {
+position: relative;
+top: 10px;
+left: 245px;
+}
+/* -------red border bottom--------------*/
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user #main.clearfix.with-navigation h1.title#page-title
+{
+color:#707B5B;
+border-bottom:2px solid #BC3E24;
+background-color:#FEFEFE;
+} 
+/* -----------end red border bottom -*/
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user #block-system-main .content .profile-block3 {
+	
+	
+	position:absolute;
+	left:70px;
+	top:590px;
+	width:252px;
+	margin-right:500px;
+	margin-top:-500px;
+	border-top:1px #C7C7C7 solid;
+	border-left:1px #C7C7C7 solid;	
+	border-bottom:1px #C7C7C7 solid;
+	border-right:1px #C7C7C7 solid;
+
+}
+
+.page-user div.tabs{
+position:absolute;
+
+}
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user .field .field-label {
+
+font-weight:normal;
+
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user .profile dt{
+
+
+font-weight:normal;
+}
+
+/* ------------------all-kids-stories  ------*/
+
+/* ------------------all-kids-stories--new  ----*/
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .clearfix.with-navigation
+{
+background-color:white;
+padding:5px 5px 5px 5px;
+border-width:1px;
+border-color:#CCCACA;
+border-style:solid;
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .views-exposed-widgets.clearfix #edit-title-wrapper
+{
+width:260px;
+padding-right:10px;
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .views-exposed-widgets.clearfix #edit-title
+{
+float:left;
+
+}
+
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .views-exposed-widgets.clearfix label
+{
+width:40px;
+position:relative;
+top:20px;
+color:#D16E54;
+
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .views-exposed-widget.views-submit-button
+{
+padding-right:5px;
+}
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .view-content
+{
+padding: 14px;
+background-image: url('../images/kids_kolhasipurim-pass.png');
+background-repeat: no-repeat;
+background-color:#7CA3DA;
+background-size: 100%;
+
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views .views-view-grid.cols-4
+{
+
+background-color:#FFFFFF;
+}
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories.page-views  #footer
+{
+border-right:0px;
+border-left:0px;
+border-top:0px;
+border-bottom:0px;
+left:-15px;
+width:924px;
+}
+
+/* ------------------all-kids-stories--new  ----*/
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #page
+{
+border:0px;
+margin-bottom:0px;
+
+
+}
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #main #content
+
+{
+margin-top:-30px;
+margin-bottom:0px;
+padding-right:0px;
+padding-left:0px;
+padding-bottom:0px;
+}
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories .addthis_toolbox.addthis_default_style.addthis_32x32_style
+{
+display:none;
+}
+.view.view-all-kids-stories.view-id-all_kids_stories {
+width:880px;
+}
+
+.view.view-all-kids-stories.view-id-all_kids_stories table{
+width:852px;
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #comments-region
+{
+
+/*display:none;*/
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #footer
+{
+width:922px;
+background-color:#E5E5E4;
+}
+
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #main-wrapper
+
+{
+background-image: url('http://agadastories.org.il:8080/sites/all/themes/agada/images/kids/greywhitebcg.png');
+background-repeat:repeat-x;
+background-color:#FBFAF9;
+margin-right:18px;
+width:892px;
+padding-left:15px;
+padding-right:15px;
+padding-top:20px;
+
+}
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #block-views-all-kids-stories-block.block.block-views.first.last.odd ,.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories #block-views-all-kids-stories-block.block.block-views.first.last.odd 
+
+{
+		
+		padding:4px;
+		border: solid #BDBDBD 1px;
+		background-color:#FFFFFF;
+
+}
+
+.html.not-front.logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories #block-views-all-kids-stories-block.block.block-views.first.last.odd .content ,.html.not-front.not-logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories #block-views-all-kids-stories-block.block.block-views.first.last.odd .content
+{
+		padding:14px;
+		background-image: url('../images/kids_kolhasipurim-pass.png');
+		background-repeat:no-repeat;
+		background-color:#7CA3DA;
+		background-size:100%;
+}
+
+/*.html.not-front.logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .block.block-views.first.last.odd
+{
+
+background: url(../images/kids_kolhasipurim-pass-inverted.png)  ;
+background-repeat:no-repeat;
+background-position:center bottom;
+}
+*/
+.html.not-front.logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories #content.column ,.html.not-front.not-logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories #content.column
+
+{
+
+/*background: url(../images/kids_kolhasipurim-pass-inverted.png)  ;
+background-repeat:no-repeat;
+background-position:center bottom;*/
+
+}
+
+/*.html.not-front.logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .view-content ,.html.not-front.not-logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .view-content 
+{
+
+
+	background-color:white;
+
+}*/
+
+.html.not-front.logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .row-first ,.html.not-front.not-logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .row-first
+
+{
+		border-top:solid;
+		border-top-width:10px;
+
+		border-color:white;
+}
+
+
+
+.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories .row-last ,.html.not-front.not-logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .row-last
+
+{
+		border-bottom:solid;
+
+		border-bottom-width:10px;
+
+		border-color:white;
+}
+
+/*.html.not-front.no-sidebars.page-all-kids-stories.section-all-kids-stories .region.region-content,.html.not-front.not-logged-in.no-sidebars.page-all-kids-stories.section-all-kids-stories .region.region-content
+
+{
+	
+	background-image: url('../images/greyvpass.jpg');
+	background-repeat:repeat-x;
+	background-position:left bottom;
+	
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    
+    padding-left: 15px;
+  
+	border: solid #BDBDBD 1px;
+	border-bottom:0px;
+}*/
+
+
+/*--------------navigation bar----------------------*/
+
+ #header #navigation ul
+{
+margin-top:24px;
+margin-left:5px;
+}
+
+
+#header #navigation .container-inline
+{
+position:absolute;
+
+top:28px;
+left:40px;
+
+}
+
+/* -----end of navigation bar--------------------------*/
+
+
+/*--------------------------node ------------------------*/
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #content_tabs div.active_story_type
+{
+background:url(../images/kids/kids_node_active_tab_background.png) no-repeat;color:#FFF;margin-bottom:0;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #green_box
+
+{
+height:571px;
+background-color:#919c7d;
+background: url(../images/kids/kids_node_area_background.png) no-repeat;
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #green_box
+
+
+{
+width:638px;
+height:571px;
+background-color:#919D7A;
+
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node div.list.jspScrollable
+{
+width:613px ! important;
+height:535px;
+
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node  div.list.jspScrollable div.jspContainer
+
+{
+width:613px ! important;
+/*height:535px ! important;*/
+
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node div.jspPane
+{
+left:0 !important;
+width:599px ! important;
+
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node #white_box
+{
+width:620px;
+margin: 16px 9px 0 0;
+height:548px;
+padding:0px;
+}
+/* html not-front logged-in one-sidebar sidebar-second page-node page-node- page-node-23 node-type-agada-children-story toolbar toolbar-drawer section-node */
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #main.clearfix.with-navigation h1.title#page-title
+{
+width:883px;
+padding-right:30px;
+/*width:100%;*/
+background-color:#82A4D7;
+border-bottom: 0px solid #BC3E24;
+color:#F9FFF3;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node #white_box .field-item.even p 
+
+{
+line-height:21px;
+padding:4px;
+text-align:justify;
+font-size:15px;
+color:#494E7D;
+
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+/*font-weight: 900;*/
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #white_box .field-item.even p  strong
+{
+color:#819FD2;
+}
+
+
+/*#white_box .field-item.even 
+{
+padding-top:10px;
+
+}*/
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node #main.clearfix.with-navigation #content.column
+{
+width:639px;
+height:598px;
+margin-right:20px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .node_pic img
+{
+
+width:100%;
+height:230px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #main-wrapper
+
+{
+width:913px;
+/*margin-bottom:98px;*/
+padding-bottom:20px;
+
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field-collection-view.clearfix.view-mode-full.field-collection-view-final .node_pic p
+{
+width:100% ! important;
+background-color:#FAEEDD;
+color:#5E6584;
+text-align:center;
+height:21px;
+margin:5px auto ! important;
+position:relative;
+top:-11px;
+
+}
+/*   ------!!!!!!!!!!!!!!!!!!!!מקור התמונה Neutralization!!!!!!!!!!!!!!!!!!!!!!!! -------------*/
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .node_pic .node_pic_copy
+
+{
+
+display:none;
+
+
+}
+/*   -----!!!!!!!!!!!!!!!!!!!!מקור התמונה Neutralization!!!!!!!!!!!!!!!!!!!!!!!! -------------*/
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node .field-collection-container.clearfix
+{
+margin-right:5px ! important;
+margin-bottom: 5px ! important;
+top:-5px;
+position:relative;
+left:-5px;  
+}
+
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field.field-name-body.field-type-text-with-summary.field-label-hidden
+{
+
+padding-top:40px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field.field-name-field-processor-name.field-type-list-text.field-label-inline.clearfix
+
+
+{
+color:#819FD2;
+position:relative;
+top:30px
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node div#white_box div.jspPane div.field.field-name-field-processor-name.field-type-list-text.field-label-inline.clearfix div.field-label
+{
+color:#819FD2;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node  .field.field-name-body.field-type-text-with-summary.field-label-hidden
+{
+
+width:585px;
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node div.list.jspScrollable div.jspContainer	
+{
+height:558px ! important;
+
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.section-node #meta_keywords
+{
+
+margin-right:-9px;
+margin-top:-49px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node #meta_keywords
+{
+width:625px;
+margin-right:-9px;
+margin-top:12px;
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #block-views-comments-by-date-block h2.block-title
+
+{
+
+color:#0A0A0A;  
+}
+
+.views-view-grid.cols-4 tr
+{
+text-decoration:none;
+}
+ 
+span.field-content a
+{
+text-decoration:none;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #block-custom-wysiwyg-tooltip-box.block.block-custom-wysiwyg.first.odd h2
+
+{
+background-image:url('http://agadastories.org.il:8080/sites/all/themes/agada/images/title-background.png'); 
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .block.block-views.even h2.block-title 
+
+{
+background-image: url('http://agadastories.org.il:8080/sites/all/themes/agada/images/title-background-red.png'); 
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #block-views-more-children-view-block h2
+
+{
+background-image: url('http://agadastories.org.il:8080/sites/all/themes/agada/images/title-background-green.png'); 
+
+}
+
+/*#block-custom-wysiwyg-tooltip-boxblock .block-custom-wysiwyg.even h2
+
+{
+background-image:url('../images/title-background.png'); 
+
+}
+*/
+
+
+
+
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field.field-name-field-sound.field-type-file.field-label-hidden
+{
+position:relative;
+top:0px;
+left:125px;
+float:left;
+margin-left:10px;
+width:50px
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field-name-field-sound
+
+{
+position:relative;
+font-size:13px;
+color:#ABAEA2;
+top:-4px;
+left:105px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node #comment-form--2
+ 
+{
+padding-bottom:0px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story #edit-comment-body-und-0-format--3, .html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story .form-item.form-type-textfield.form-item-name
+{
+display:none;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #edit-actions--3 
+
+
+{
+margin:-35px 0 0 0px;
+float:left;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .form-item.form-type-textarea.form-item-comment-body-und-0-value .form-textarea-wrapper
+
+{
+width:560px;
+
+}
+
+/* -----------------main-wrapper agada-story  --------*/
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #main-wrapper
+
+{
+width:913px;
+
+
+}
+
+/*   -------------------------*/
+
+.form-item.form-type-textfield.form-item-subject input
+{
+float:left;
+margin-left:280px;
+margin-top:-18px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node div .form-item.form-type-textfield.form-item-subject
+{
+margin:10px 0 0 0;
+height:15px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node div.form-item.form-type-textarea.form-item-comment-body-und-0-value label
+
+
+{
+
+display:none;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node .form-textarea-wrapper span#cke_edit-comment-body-und-0-value--2
+
+{
+
+margin-top:-8px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node  .form-item.form-type-textfield.form-item-captcha-response
+{
+margin:-20px 0 0 230px;
+float:left;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .form-item.form-type-textfield.form-item-captcha-response label
+{
+margin:0 5px 0 0;
+float:left;
+}
+
+
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .captcha
+{
+width:100%;
+height:auto;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .captcha-title
+{
+width:50%;
+}
+
+
+#block-views-comments-by-date-block.block.block-views.first.last.odd h2.block-title
+{
+margin-bottom:10px ! important;
+margin-right:5px;
+
+}
+span.cke_wrapper.cke_rtl table.cke_editor 
+{
+max-width:551px;
+
+
+}
+
+
+
+
+{
+float: left;
+margin-left: 280px;
+margin-top: -18px;
+
+}
+
+/* -----comments --------------------*/
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #comments-region
+{
+float:none;
+margin-right:20px;
+}
+div.comment_title.green div.content, div.comment_title.green div.submitted
+{
+padding-right:20px;
+padding-top: 4px;
+
+}
+
+div.comment_title.red div.content, div.comment_title.red div.submitted
+{
+padding-right:20px;
+padding-top: 4px;
+
+}
+
+div.comment_title.blue div.content, div.comment_title.blue div.submitted
+{
+padding-right:20px;
+padding-top: 4px;
+
+}
+div.submitted{
+padding-top:4px;
+
+
+}
+.comment .content p {
+padding-top:4px;
+
+}
+
+.comment_type {
+
+margin: 2px;
+}
+
+div.comment_title.green h3.comment-title
+
+{
+
+background-color:#929D7F;
+
+margin:2px;
+}
+
+div.comment_title.red h3.comment-title
+
+{
+
+background-color:#C25F3D;
+
+margin:2px;
+}
+
+
+div.comment_title.blue h3.comment-title
+
+{
+
+background-color:#82A4D7;
+
+margin:2px;
+}
+
+
+.node-type-agada-children-story .views-row.views-row-1.views-row-odd.views-row-first h3.comment-title a
+{
+color:#fff;
+padding-right:20px;
+}
+
+
+#block-views-comments-by-date-block.block.block-views.first.last.odd
+{
+
+width:594px;
+}
+
+.comment.comment-by-node-author.first.odd.clearfix
+{
+width:100%;
+
+
+}
+.node-type-agada-children-story .comment.comment-by-node-author.first.odd.clearfix
+{
+padding:2px;
+/*padding-right:0px;*/
+}
+
+.node-type-agada-children-story .comment.even.clearfix
+{
+width:100%;
+padding:2px;
+
+}
+
+.node-type-agada-children-story .comment.odd.clearfix
+{
+width:100%;
+padding:2px;
+
+}
+
+/* -------------------------end-of-comments-kids --------------*/
+
+
+
+/* --------------------------social  --------------*/
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .addthis_toolbox.addthis_default_style.addthis_32x32_style
+
+
+{
+position:absolute;
+top:720px;
+left:40px;
+width:220px;
+margin:15px 105px 0 0;
+
+}
+.addthis_toolbox.addthis_default_style.addthis_32x32_style
+
+
+{
+position:absolute;
+top:685px;
+left:40px;
+width:220px;
+margin:15px 105px 0 0;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .addthis_toolbox.addthis_default_style.addthis_32x32_style
+{
+left:500px;
+top:930px;
+
+}
+
+/* ------------------------end-of--social  --------------*/
+
+
+/* -------sidebar   ------*/
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .region.region-sidebar-second.column.sidebar
+{
+
+width:216px;
+}
+
+
+/* -------end-of-sidebar   ------*?
+
+
+
+/* ------------------------footer  ------------------------*/
+
+ div#footer
+
+{
+
+width: 923px;
+height: 80px;
+background: #E9E9E8;
+margin-right: 2px;
+border-color: white;
+border-top: 0;
+text-align: center;
+border-right-width: 17px;
+border-left-width:20px;
+border-bottom: 0px;
+margin-right: 3px ! important;
+padding-left: 0px;
+margin-bottom: 0px;
+padding-right: 0px;
+position:relative;
+left:3px;
+
+}
+
+
+/*.html.not-front.not-logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node div#footer
+{
+position: relative;
+top: 101px;
+left: 46px;
+width: 925px;
+padding-left: 0px;
+border-left-width: 19px;
+}*/
+
+
+
+/* ------------------------end-of--footer  --------------*/
+
+/* --------------------------comments-agada-story -------------------------*/
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #edit-field-comment-attachment-und-0--2-ajax-wrapper
+{
+margin-top:-10px;
+
+width:308px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .form-item.form-type-radios.form-item-field-comment-type-und
+{
+
+position:relative;
+left:-360px;
+top:-57px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .captcha
+{
+margin-top:-30px;
+height:80px;
+padding:0px
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .form-item.form-type-textfield.form-item-captcha-response
+{
+float:none;
+width:165px;
+margin:0 0 0 0;
+position:relative;
+left:-120px;
+top:-69px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node input#edit-captcha-response--2
+{
+height:23px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node input#edit-submit--3
+
+{
+float:left;
+margin-top:-55px;
+margin-left:210px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #comment-form--2
+
+{
+border-color:#FDFDFD;
+background-color:#FDFDFD;
+padding-bottom:0px;
+}
+
+
+/* ------------------------end-of -comments-agada-story -------------------------*/
+
+
+div#page
+{
+border:0px;
+margin-bottom:0px;
+border-bottom:0px;
+}
+
+
+/* ---------------------tikunim2 allkids stories  --------------------------*/
+div#banner
+{
+top:27px;
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #all_story.active_story_type
+{
+width:89px;
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.section-node .tabs.primary.clearfix
+{
+margin-right:1px;
+width:auto;
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.section-node #main.clearfix.with-navigation #content.column 
+{
+height:627px;
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #comments-region 
+{
+margin-top:130px;	
+
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .form-item.form-type-item
+{
+display:none;
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .sidebar .section .block .content{
+	
+	color:#5D6081;
+	font-size:14px;
+	
+	}
+	
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #main-wrapper	
+	{
+	
+	background-image:url('http://agadastories.org.il:8080/sites/all/themes/agada/images/kids/greywhitebcg.png');
+	background-repeat:repeat-x;
+	background-color:#FBFAF9;
+	
+	}
+	
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #block-views-external-related-links-block
+{	
+	font-weight:bold;
+	
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node	div#comment_title p
+{
+
+font-size: 16px;
+color:#BC3E24;
+position:relative;
+left:7px;
+top:108px;
+font-weight:bold;
+
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node div#comment_title p
+{
+
+font-size: 16px;
+color:#BC3E24;
+position:relative;
+left:7px;
+top:43px;
+font-weight:bold;
+
+}
+
+ div#comment_title p
+{
+
+font-size: 16px;
+color:#BC3E24;
+position:relative;
+left:7px;
+top:43px;
+font-weight:bold;
+
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #meta_keywords
+
+{
+position:relative;
+top:-41px;	
+
+
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node #meta_keywords
+
+{
+
+position:relative;
+top:9px;	
+
+
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field.field-name-field-agada-fivestars.field-type-fivestar.field-label-hidden
+
+{
+position:relative;
+top:-51px;	
+
+
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node .field.field-name-field-agada-fivestars.field-type-fivestar.field-label-hidden
+
+{
+position:relative;
+top:5px;	
+
+
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node ul.links.inline
+
+{
+position:relative;
+top:5px;	
+
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-children-story.section-node ul.links.inline
+
+{
+position:relative;
+/*top:-51px;	FOR TEXTUAL LINK IN HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .addthis_toolbox.addthis_default_style.addthis_32x32_style
+{
+position:relative;
+top:-530px;
+left:-580px;
+}
+
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .addthis_toolbox.addthis_default_style.addthis_32x32_style
+{
+position:relative;
+top: -550px;
+left: -580px;
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node .node.node-agada-story.node-promoted.view-mode-full.clearfix ul
+{
+position:relative;
+top:40px;
+
+}
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node div.field.field-name-field-agada-fivestars.field-type-fivestar.field-label-hidden
+{
+position:relative;
+top:40px;
+
+}
+
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #comments-region {
+width: 560px;
+margin: 80px 0 0 0;
+float: right;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #comments-region
+{
+
+padding:19px ;
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node #comment-form--2 {
+width: 568px;
+
+background: #FDFDFD;
+
+padding: 0 0px 10px 20px;
+margin: 10px 0 10px 0;
+}
+.open_close_block
+{
+font-weight:normal;
+font-size: 15px;
+/*position:relative;*/
+margin-top:1px;
+
+}
+.more img , .close img
+{
+/*position:relative;*/
+margin-top:-15px;
+
+}
+.open_close_block div.close
+{
+margin-top:-15px;
+}
+
+.small_title
+{
+color:#819FD2;
+font-weight: bold;
+line-height: 21px;
+text-align: justify;
+font-size: 15px;
+position:relative;
+top:20px;
+
+}
+/* ---------------------end tikunim2 allkids stories  --------------------------*/
+
+/*------------have to be destroyed ---------------------*/
+
+/* -------------------- end of something to destroy -------*/
+
+#main-wrapper .at_a11y {
+
+position:absolute;
+left:0px ! important;
+
+}
+
+#page-wrapper{
+border-bottom: 17px solid white;
+margin-bottom:100px;
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.node-type-agada-story.section-node div#footer
+{
+width:924px;
+border-left:19px;
+border-bottom:19px;  
+} 
+
+.html.not-front.no-sidebars.page-user.page-user-.section-user div#footer
+{
+width:917px;
+
+} 
+.html.not-front.logged-in.one-sidebar.sidebar-second.page-node.page-node-.page-node-edit.node-type-agada-story.section-node-edit .form-item.form-type-select.form-item-field-children-version-und{
+
+display:block;
+}
+/*  ------------------Kifs Front Page   -*/
+
+#block-tagadelic-2 .content{
+height:110px;
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .views-view-grid.cols-3
+
+{
+margin:0px;
+
+
+
+}
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .views-view-grid.cols-3 .topic
+{
+margin: 0 0 25px 15px;
+
+}
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #main-wrapper{
+
+width: 923px;
+margin-right: 17px;
+background-color: #EBD2AB;
+padding-top: 20px;
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #main{
+
+width: 890px;
+margin-right: 17px;
+background-color:#FAF4EA;
+padding-top: 7px;
+
+/*height: 620px;*/
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views  #content{
+background-color:#FAF4EA;
+
+
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .region.region-content {
+
+
+width:498px;
+border:1px solid #A8B3BB;
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #content .section {
+
+
+width:500px;
+
+
+}
+
+a[title|="הרשם ל-Front page feed"]	{
+
+display:none;
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #content.column {
+
+
+width:500px;
+}
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .region.region-sidebar-second.column.sidebar
+
+{
+width:340px;
+margin-top: 10px;
+height:auto;
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #block-views-stories-of-the-week-block.block.block-views.even
+{
+height:280px;
+
+
+}
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #block-views-most-viewed-contents-kids-block.block.block-views.first.odd{
+
+padding-top: 34px;
+height: 420px;
+width: 337px;
+padding-top: 34px;
+margin-bottom: 17px;
+padding-right: 0px;
+}
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views  .content, .html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views   .content > div{
+padding-right: 0px;
+height:auto;
+padding-top: 0;
+padding-left: 0;
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .item-list li{
+border:1px solid #E2E2E2;
+height:77px;
+background-color: #FAFAFA;
+margin-top: 16px;
+padding:3px;
+margin-left: 10px;
+margin-right: 9px;
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views div.field-content div.field-collection-view.clearfix.view-mode-token.field-collection-view-final img{
+width:77px;
+height:77px;
+/*margin-right:-200px;
+margin-right:-200px;*/
+
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views div.field-collection-view.clearfix.view-mode-token.field-collection-view-final{
+width:77px;
+height:77px;
+
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views ul{
+
+list-style-type: none;
+padding:0;
+margin:0;
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .sidebar .section .block .content a {
+
+color:#4E4D4D;
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views li h2{
+
+/*
+margin:-70px 100px 10px 0px;*/
+position: relative;
+top: -70px;
+left: -100px;
+}
+
+
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views li div#most-view-contents {
+height:30px;
+width:200px;
+position: relative;
+top: -60px;
+left: -100px;
+
+/*margin-right:100px;*/
+}
+
+#most-view-contents-comment
+{
+height:25px;
+margin:-25px 65px 0px 0px
+}
+
+#most-view-contents-like{
+height:25px;
+margin:0px 0px 0px 0px
+
+}
+#most-view-contents-like span div{
+margin:-22px 27px 0px 0px
+
+}
+
+#most-view-contents-comment span span{
+/*margin:-2px 0px 0px 0px*/
+position:relative;
+top:-3px;
+left:0px;
+
+}
+
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views li div span{
+
+color:#C36853;
+
+
+
+}
+/*-------------------------------------------------------------------------------------------most viewed--------------------------------------------------*/
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views li .views-row div.clearfix{
+
+}
+
+
+
+/*  ------------------CLOUD  ------------------*/
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level1 {
+  font-size : 1em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level2 {
+  font-size : 1.2em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level3 {
+  font-size : 1.4em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level4 {
+  font-size : 1.6em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level5 {
+  font-size : 1.8em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level6 {
+  font-size : 2em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level7 {
+  font-size : 2.2em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level8 {
+  font-size : 2.4em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level9 {
+  font-size : 2.6em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views .tagadelic.level10 {
+  font-size : 2.8em;
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #block-tagadelic-2 h2.block-title{
+display:none;
+
+
+
+}
+
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views #block-tagadelic-2{
+height:112px;
+
+
+}
+.html.front.one-sidebar.sidebar-second.page-kids-frontpage.page-views div.more-link{
+margin-top:-15px;
+
+
+}
+
+
+/* --------------------player kids main ---------------*/
+
+.kids-body #content.column .section .region.region-content{
+border:none;
+}
+.kids-body.page-kids-frontpage #block-views-stories-of-the-week-block.block.block-views.agada.first.odd{
+border: 1px solid #9EA6B0;
+width:500px;
+height:280px;
+margin:0px auto 0 auto;
+
+}
+.kids-body.page-kids-frontpage #block-views-stories-of-the-week-block.block.block-views.agada.first.odd h2{
+height:33px;
+width:500px;
+background: url('../images/name.png');
+margin-left: auto;
+margin-right: auto;
+font-size: 21px;
+font-weight: bold;
+color: white;
+text-align: center;
+margin-top: 0px;
+
+}
+
+.kids-body.page-kids-frontpage #block-views-stories-of-the-week-block.block.block-views.agada.first.odd .views-slideshow-controls-bottom.clearfix{
+height: 37px;
+width: 500px;
+background: url('../images/player_footer.png');
+border-top: 1px solid #9EA6B0;
+}
+.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.{
+
+height:206px;
+
+}
+.views-slideshow-pager-field-item.views_slideshow_pager_field_item{
+margin-top: 9px;
+float: left;
+width: 40px;
+height: 28px;
+background: url('../images/number.png');
+font-size: 14px;
+color: #3D3F3F;
+cursor: pointer;
+}
+
+.views-slideshow-pager-field-item.views_slideshow_pager_field_item.active{
+background: url('../images/active.png');
+
+}
+
+
+.kids-body.page-kids-frontpage .skin-default .node_pic{
+width:100%;
+height:207px;
+
+}
+.kids-body.page-kids-frontpage .skin-default .node_pic p, .kids-body.page-kids-frontpage .skin-default .node_pic span{
+
+display:none;
+}
+.views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide.views_slideshow_slide.views_slideshow_cycle_hidden{
+height:206px;
+
+}
+div.views-content-position{
+padding:5px 18px 0 0;
+
+}
+.image{
+float:right;
+width:299px;
+height:207px;
+border: 1px solid #9EA6B0;
+border-right:none;
+}
+.name{
+float:left;
+width:180px;
+height:50px;
+border: 0px solid #9EA6B0;
+padding:15px 10px 0 10px;
+}
+.name .center span.field-content a[href*="/kids/"]
+{
+font-size: 17px;
+font-weight: bold;
+color: #C36042;
+
+}
+.text
+
+{
+position:absolute;
+width:200px;
+height:156px;
+border: 0px solid #9EA6B0;
+top: 50px;
+left: -1px;
+
+}
+.views-slideshow-cycle-main-frame-row-item.views-row{
+width:500px;
+}
+.image img{
+width:100%;
+
+height:100%;
+
+}
+.text h2{
+float:right;
+margin:15px 10px 0 0;
+font-size:17px;
+font-weight:bold;
+color:#C36042;
+margin-bottom:13px;
+
+}
+.text span{
+float:right;
+text-align:right; 
+margin:0 10px 0 25px;
+font-size:14px;
+font-weight:bold;
+color:#7D7C7C;
+margin: 13px 10px 0 10px;
+
+
+}
+.player_footer
+
+{
+float:right;
+height:38px;
+width:500px;
+background: url('images/player_footer.png');
+border-top: 1px solid #9EA6B0;
+/*padding-top:10px;*/
+
+}
+.number
+{
+margin-top:8px;
+float:left;
+width:40px;
+height:30px;
+background: url('images/number.png');
+font-size:14px;
+color:#3D3F3F;
+
+}
+
+
+.number.active{
+
+background: url('images/active.png');
+color:#fff;
+
+}
+
+.number span{
+margin:0px 0px 0px 15px;
+position: relative;
+top: 5px;
+}
+
+/*-----------------------------------------------------------------------------login---------------------------------------------------------------------------*/
+.html.not-front.not-logged-in.no-sidebars.page-user.section-user #main #content.column{
+
+
+padding-top:26px;
+}
+
+.html.not-front.not-logged-in.no-sidebars.page-user.section-user #content.column .tabs{
+margin-top:-13px; 
+}
+
+.html.not-front.not-logged-in.no-sidebars.page-user.section-user #content.column .tabs ul.primary  {
+background:none;
+}
+
+/*---------------------------------------------------------------------edit profile--------------------------------------------------------------*/
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user  #block-system-main{
+height:1190px;
+
+
+
+}
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.section-user span.flag-wrapper.flag-bookmarks 
+{
+position: relative;
+top: -15px;
+left: -210px;
+}
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user   #main #content.column{
+
+padding-top:26px
+
+
+
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user   #content.column .tabs{
+
+margin-top:-13px
+
+
+
+}
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user   #block-system-main #edit-account .description{
+margin-right:70px;
+}
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user   #block-system-main .fieldset-wrapper .description{
+
+margin-right:10px;
+}
+/*---------------------------------------------------------MORE BUTTON In  CLOUD------------------------------------------------------------------------------------------*/
+
+
+
+a[title*="more tags"]
+{
+
+
+display:none
+
+}
+#banner{
+
+width:930px;
+left:8px;
+top:27px;
+
+}
+/*---------------------------------------------------------------------------logged in------------------------------------------------------------------------------------------------------------------------------*/
+
+.html.not-front.logged-in.no-sidebars.page-user.page-user-.page-user-edit.section-user .form-item-field-firstname-und-0-value{
+
+float:right;
+width:100%;
+height:50%;
+margin-top: -20px;
+}
+/*------------------------------------------------------------------------------------------------- h2 BLOCK TITLE ----------------------------------------------------------------------------------------*/
+.region.region-content .block.block-views.first.odd h2.block-title {
+margin-top: 40px;
+}
+
+/*------------------------------------------------------------------------------------------------------new pasword--------------------------------------------------------------------------------------------------*/
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-password.section-user #block-system-main .form-item.form-type-textfield.form-item-name label
+
+{
+width:200px;
+height:20px;
+margin:auto;
+float:none;
+
+}
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-password.section-user #block-system-main form input[type="text"]
+
+{
+float:none;
+
+}
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-password.section-user #block-system-main form 
+
+{
+margin-right:50px;
+
+}
+/*---------------------------------------------------------------------------------------------page user register------------------------------------------------------------------------------------------------------------*/
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-register.section-user  #block-system-main
+{
+height:490px;
+}
+
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-register.section-user .password-strength{
+/*margin:auto;*/
+float:none;
+margin-bottom:10px;
+margin-right:49px;
+
+}
+
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-register.section-user #edit-account{
+margin:0px 90px 0px 0px;
+float:none;
+
+}
+
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-register.section-user #edit-actions{
+margin:0px 110px 0px 0px;
+
+
+}
+.html.not-front.not-logged-in.no-sidebars.page-user.page-user-register.section-user #block-system-main form .description{
+margin:0px 70px 0px 0px;
+
+
+}
+/*---------------------------------------------------------------------------------------------user content------------------------------------------------------------------------------------------------------------*/
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #block-views-last-comments-block {
+height:755px;
+width: 320px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #block-views-last-comments-block h2{
+background-color:#C36042;
+margin: 2px 5px 0px 37px;
+width: 315px;
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .sidebar .section .block .content{
+height:725px;
+}
+.html.not-front.not-logged-in.one-sidebar.sidebar-second.page-user-content.section-user-content span.views-label.views-label-title{
+color:#73787B;
+font-size:14px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content span.field-content a{
+color:#535D60;
+font-size:14px;
+font-weight:bold;
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content ul{
+list-style-type: none;
+padding:0px 0px 0px 0px ;
+font-size: 14px;
+font-weight: normal;
+color: #535D60;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list ul li{
+
+border-bottom:1px solid #C36042;
+background-color:#FAFAFA;
+margin:10px 0px 10px 0px;
+min-height:90px;
+padding-right: 10px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details{
+background-color:#F5F4F4;
+margin-right: 0px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details #goto{
+background-image: url('/sites/all/themes/agada/images/more.png');
+background-repeat: no-repeat;
+background-position-y: 3.5px;
+width: 54px;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details #goto span a {
+font-size: 12px;
+color: #8E9680;
+}
+
+
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list ul li span.field-content{
+color:#BB5239;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details #date{
+width: 54px;
+float: right;
+margin-top: 7px;
+margin-left: 0px;
+margin-right:5px;
+color:#535D60;
+font-size:12px;
+
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details #date span{
+color:#535D60;
+font-size:12px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details span:nth-child(3){
+position: relative;
+top: -4px;
+font-size:12px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content .item-list .comment_details img{
+
+position: relative;
+top: 2px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content  #content {
+
+height:743px;
+width: 532px;
+border: 1px solid #CCCACA;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content div.region.region-sidebar-second.column.sidebar {
+
+height:auto;
+width: 326px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #comment-title  {
+
+font-size:14px;
+color:#697275;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #comment-title span a{
+
+font-size:14px;
+color:#CA745B;
+position:relative;
+top:-18px;
+right:76px;
+font-weight:normal;
+}
+
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .content ul p{
+margin-top: 0px;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #main-wrapper  {
+
+padding: 4px 5px 0 10px;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .view.view-most-viewed-contents.view-id-most_viewed_contents.view-display-id-block h2.page-visitors-page-right-title.blue {
+
+background-color:#A3B383;
+
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #left-taxonomy{
+height:95px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content #main{
+margin-right:9px;
+
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .taxonomy-term-tags div.field-content{
+width: 306px;
+position: relative;
+top: -14px;
+left: -30px;
+height: 19px;
+overflow: hidden;
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .taxonomy-term-tags {
+
+overflow: hidden;
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content div.region.region-content{ 
+padding-right: 16px;
+
+
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content .taxonomy-term div.field-content  img{
+width:138px;
+height:138px;
+border:5px solid #F5F3F3;
+}
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content div.taxonomy-term div.content div.taxonomy-term-left div.taxonomy-term-details span.field-content a {
+font-size: 12px;
+text-decoration: none;
+color: #9EA592;
+font-weight: normal;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content div.taxonomy-term div.content div.taxonomy-term-left div.taxonomy-term-details #enterbtn  span {
+float:left;
+}
+
+.html.not-front.one-sidebar.sidebar-second.page-user-content.section-user-content  .taxonomy-term-left h2 span a{
+font-size:15px;
+font-weight:bold;
+color:#486BA0;
+
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------agada main------------------------------------------------------------------------------------------------------*/
+.html.front.no-sidebars.page-frontpage-temp.page-views .view-content #js-container {
+float:left;
+position:absolute;
+top:35px;
+left:10px;
+
+}
+.html.front.no-sidebars.page-frontpage-temp.page-views #content.column{
+height: 600px;
+
+}
+.html.front.no-sidebars.page-frontpage-temp.page-views #main-wrapper
+{
+width:911px;
+
+}
+
+.html.front.no-sidebars.page-frontpage-temp.page-views ul.pager{
+position:absolute;
+top:645px;
+left:130px;
+}
+
+/*----------------------------------------------------------------------------------------------scroll left block-----------------------------------------------------------------------------------------------------------*/
+.html.not-front.one-sidebar.sidebar-second.page-node.page-node-.section-node .region.region-sidebar-second.column.sidebar .view-content.list{
+width: 212px ! important;
+height: 445px;
+margin-left: -7px;
+}
+.region.region-sidebar-second.column.sidebar .view-content.list {
+display:block;
+}
+.one-sidebar.sidebar-second.page-node.page-node-.section-node .region.region-sidebar-second.column.sidebar .jspPane{
+margin-left: 1px;
+
+width: 202px ! important;
+text-align: right;
+}
+.one-sidebar.sidebar-second.page-node.page-node-.section-node .region.region-sidebar-second.column.sidebar div.list div.jspContainer/*>div.jspVerticalBar*/{
+width: 215px ! important;
+height: 470px ! important;
+margin-right: -13px;
+margin-top: 10px;
+}
+.one-sidebar.sidebar-second.page-node.page-node-.section-node .region.region-sidebar-second.column.sidebar div.list div.jspPane{
+
+
+}
+.one-sidebar.sidebar-second.page-node.page-node-.section-node .region.region-sidebar-second.column.sidebar .content.open_block_content{
+
+}
+#block-views-external-related-links-block .field-item.even
+{
+margin-top: 25px;
+}
+.one-sidebar.sidebar-second.page-node.page-node-.section-node .region.region-sidebar-second.column.sidebar div.list div.jspContainer.vertical{
+width: 215px ! important;
+height:470px ! important;
+margin-right: 15px;
+}
+
+
+}
+/*--------------------------------------------------------------------------------------------3-------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------3-------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

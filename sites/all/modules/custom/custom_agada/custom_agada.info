@@ -1,0 +1,5 @@
+name = Custom Agada
+description = Provides Special Specific functionality for Agada site like additional boxes.
+package = Custom
+core = 7.x
+version = "7.x-1.0"

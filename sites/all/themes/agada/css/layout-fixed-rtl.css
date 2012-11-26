@@ -1,0 +1,86 @@
+/**
+ * @file
+ * RTL companion for the layout-fixed.css file.
+ */
+
+
+/*
+ * Content
+ */
+#content,
+.no-sidebars #content {
+  float: right;
+ 	 margin:0 18px 0 0;
+  	 
+
+}
+
+.page-frontpage #main-wrapper{
+	width:924px;
+	 padding: 0 0 0 0;
+	}
+
+.sidebar-first #content {
+  margin-left: -960px; /* Negative value of #content's width + right margin. */
+  margin-right: 200px; /* The width of .region-sidebar-first. */
+}
+
+.sidebar-second #content {
+  margin-left: 0; /* Negative value of #content's width + right margin. */
+  margin-right: 0;
+}
+
+.two-sidebars #content {
+  margin-left: -760px; /* Negative value of #content's width + right margin. */
+  margin-right: 200px; /* The width of .region-sidebar-first */
+}
+
+/*
+ * Navigation
+ */
+#navigation {
+  width:950px;
+  float:right;
+  margin:131px 18px 0 0;
+
+}
+#navigation #main-menu{float:right !important;width:655px;}
+#navigation .region{float:right;width:190px;margin:7px 73px 0 0;}
+
+
+
+#search-block-form span{color:#515a3e;}
+#edit-search-block-form--2{background:none;width:126px;border:0;margin:-3px 4px 0 0;}
+#edit-submit--2.form-submit{background:url(../images/search_button.png) no-repeat;width:16px;height:16px;border:0;margin:0 0 0 0;padding-top:2px;position:relative;top:3px;right:5px;}
+
+#main-menu li{width:130px;text-align:center;height:32px;}
+#main-menu li a{color:#fff;text-decoration:none;font-weight:bold;position:relative;top:6px;}
+#main-menu li:hover{background:url(../images/main_menu_active_background.png) no-repeat 18px center;cursor:pointer;background-size: 100%;background-position-y: 2px;background-position-x: 0px;}
+#main-menu li:hover a{color:#51315A;}
+
+/*
+ * First sidebar
+ */
+.region-sidebar-first {
+  float: right;
+  margin-left: -200px; /* Negative value of .region-sidebar-first's width + right margin. */
+  margin-right: 0;
+}
+
+.region-sidebar-first .section {
+  margin: 0 0 0 20px;
+}
+
+/*
+ * Second sidebar
+ */
+.region-sidebar-second {
+  float: right;
+  margin-left: 0; /* Negative value of .region-sidebar-second's width + right margin. */
+  /* Width of content + sidebar-first. */
+  margin:20px 15px 0 0;
+}
+
+.region-sidebar-second .section {
+  margin: 0 0 0 0;
+}

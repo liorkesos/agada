@@ -1,0 +1,198 @@
+@charset "utf-8";
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.kids-body .list{
+	height:550px;
+	overflow:hidden;
+	float:left;
+	width:543px;
+	position:relative;
+	padding:0 20px 0 0;
+	margin:0 0 0 -13px;
+	display:none;
+	}
+.list{
+	height:550px;
+	overflow:hidden;
+	float:left;
+	width:620px;
+	position:relative;
+	padding:0 20px 0 0;
+	margin:0 0px 0 -15px;
+	display:none;
+	}
+
+.node-type-agada-children-story .list{
+	height:1210px;
+	width:593px;
+	margin-top:20px;
+
+	}
+
+.jspContainer
+{
+	
+	overflow: hidden;
+	position: relative;
+	margin: -20px 0 0 0;
+}
+
+.jspPane
+{
+	position: absolute;
+	
+}
+
+.jspPane > p{margin:0;}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 25px;
+    right:0px;
+	width: 10px;
+	height: 100%;
+	/*background: red;*/
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 90%;
+	height: 10px;
+/*	background: red;*/
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	position: relative;
+	background: #f3f3ef;
+	/*border-left: #d6d6d6 1px solid;
+	border-right: #d6d6d6 1px solid;*/
+	width:10px;
+	height:280px;
+}
+
+.jspDrag
+{
+	
+position: relative;
+top: 0;
+left: 0px;
+cursor: pointer;
+background: #DCDCCE;
+width: 11px;
+	
+
+	/*-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;*/
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: url(/national/memory/pages/songs/images/scrollbar.png) no-repeat ;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspVerticalBar>.jspActive,
+.jspArrow:hover
+{
+	background-image: url(../images/scrollbar.png) left;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+/*	background: #80808d; */
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 11px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 10px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 11px;
+	width: 11px;
+}
+
+.jspArrowUp
+{
+	background-position: 0 0;
+}
+
+.jspArrowUp.jspDisabled
+{
+	
+}
+
+.jspArrowDown
+{
+	background-position: 0 bottom !important; 
+}
+
+.jspArrowDown.jspDisabled
+{
+	
+}
+

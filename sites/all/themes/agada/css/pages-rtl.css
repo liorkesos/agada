@@ -1,0 +1,92 @@
+/**
+ * @file
+ * RTL companion for the pages.css file.
+ */
+
+
+/*
+ * Header
+ */
+#logo /* Wrapping link for logo */ {
+  float: right;
+}
+
+/*
+ * Content
+ */
+ul.links li /* List of links */ {
+  display: inline-block; /* Bug in Safari causes display: inline to fail. */
+  padding: 0 0 0 1em;
+}
+.print-content{
+width:834px;
+margin:auto;
+
+}
+.print-content .small_title{
+font-size: 18px;
+font-weight: bold;
+background: white;
+color: black;
+width: 416px;
+border-bottom:double;
+
+}
+.print-content .field-items{
+width:832px;
+}
+.print-content .resources_title{
+margin-top:-16px;
+}
+.print-content .small_title{
+padding-right:0px;
+margin-right:-5px;
+}
+.print-content .resources{
+width:500px;
+}
+.print-content .node{
+border-bottom:double;
+}
+
+.body-print-version .print-content .field-item.even{
+border-bottom:double;
+}
+.print-source_url{
+width:834px;
+text-align:left;
+margin:auto;
+}
+
+
+
+hr.print-hr{
+color:#fff;
+border:none;
+}
+
+.print-logo{
+width:834px;
+height:88px;
+margin:auto;
+background:url(../images/Print_Version_header_adults.png) no-repeat center top ;
+
+}
+.agada_children_story_logo.print-logo{
+
+background:url(../images/Print_Version_header_kids.png) no-repeat center top ;
+
+}
+.about-print-version .small_title{
+padding-top: 20px;
+position:relative;
+margin-bottom:16px;
+background:none;
+
+}
+
+
+.print-content .tooltip_source {
+
+color:#6C8954;
+}

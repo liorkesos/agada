@@ -1,0 +1,90 @@
+/**
+ * @file
+ * Page Background Styling
+ *
+ * The default layout method of Zen doesn't give themers equal-height columns.
+ * However, equal-height columns are difficult to achieve and totally
+ * unnecessary. Instead, use the Faux Columns method described in the following
+ * ALA article:
+ *   http://www.alistapart.com/articles/fauxcolumns/
+ */
+
+
+body {
+}
+
+#page-wrapper {
+}
+
+#page {
+}
+
+#header {
+}
+
+#header .section {
+}
+
+#main-wrapper {
+	width:924px;
+	background:#fdfdfd;
+	border:1px solid #cccaca;
+	margin:0 17px 0 0;
+	padding:0 0 0 0;	
+}
+
+.page-kids-frontpage #main-wrapper {
+	width:auto;
+	background:none;
+	border:0;
+	margin:0 0 0 0;
+	padding:0 0 0 0;	
+}
+
+.page-visitors-page #main-wrapper{
+	padding-right:10px;width:914px;
+	}
+
+#main #content{
+    margin: 20px 20px 10px 0;
+	float:right;
+	padding:8px;
+	}
+.node-type-agada-children-story #main #content{width:638px;}
+.page-kids-frontpage #main #content{
+	margin:10px 17px 0 0;
+	padding:0 0 0 0;
+	}	
+	
+.page-node #main #content {
+	border:1px solid #d6d6d6;
+	-moz-box-shadow: 0 0 1px 1px #d6d6d6;
+	-webkit-box-shadow: 0 0 1px 1px #d6d6d6;
+	box-shadow: 0 0 1px 1px #d6d6d6;
+}
+
+.page-user #main #content {
+	border:1px solid #d6d6d6\9;
+	-moz-box-shadow: 0 0 1px 1px #d6d6d6;
+	-webkit-box-shadow: 0 0 1px 1px #d6d6d6;
+	box-shadow: 0 0 1px 1px #d6d6d6;
+	background:#F1F1F1;
+	}
+#footer{
+	width:924px;
+	height:80px;
+	background:#e9e9e8;
+	margin:0 17px 14px 0;
+	border:1px solid #cccaca;
+	border-top:0;
+	text-align:center;
+	}
+	
+#footer a img{margin: 10px 0 0 20px;}
+#footer a{color:#1e3469;text-decoration:none;font-size:15px;font-weight:500;}
+#footer a:hover{text-decoration:underline;}
+
+.textual_separator{margin: 0 7px 0 7px;}
+
+.region-footer {
+}

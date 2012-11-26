@@ -1,0 +1,102 @@
+<?php
+// $Id: custom_wysiwyg.module,v 1.0 
+
+
+/**
+ * Implements hook_block_info().
+ */
+function custom_wysiwyg_block_info() {
+  $blocks['tooltip_box'] = array(
+    'info' => t('tooltip_box'), //The name that will appear in the block list.
+    'cache' => DRUPAL_CACHE_PER_PAGE, //Default
+  );
+  return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ */
+function custom_wysiwyg_block_view($delta = '') {
+ 
+  $block = array();
+
+  switch ($delta) {
+    case 'tooltip_box':
+	    $node = menu_get_object();
+		 if (is_object($node) && $node->nid) {
+			 $box_content_str='';
+
+			 $output ='<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>'.render(field_view_field('node', $node, 'body'));
+			 $dom = new DOMDocument();
+			 //$dom->encoding = 'UTF-8'; // insert proper
+			 // $searchPage = mb_convert_encoding($output, 'HTML-ENTITIES', "UTF-8"); 
+			 $dom->loadHTML('<?xml encoding="UTF-8">' . $output);//'<?xml encoding="UTF-8">' . 
+
+			 $xpath = new DOMXPath($dom);
+
+			 $tags = $xpath->query('//code[@class="tooltip_code"]');
+			 foreach ($tags as $tag) {
+				 $box_content[] = '<div><strong>'.trim($tag->textContent) . "</strong> - " . trim($tag->getAttribute('title'));
+			 }
+			 if (!isset( $box_content)) {
+				 $box_content = array();
+			 }
+			 $box_content = array_unique ( $box_content); //remove duplicates from the array
+			 if (isset($box_content) && $box_content) {
+				$box_content_str = join("</div>" , $box_content)."</div>";
+			 }
+
+			 if ($node->type =="agada_children_story") {
+				 $block['subject'] = t("commentations");
+			 }
+			 else {
+				 $block['subject'] = t("Bialik-Ravintzki-Shinaan commentations");
+			 }
+			 
+			 $block['content'] = $box_content_str ;
+			 if ($box_content_str) {
+				return $block;
+			 }
+			 return '';
+		 }
+	}
+
+}
+
+/**
+ * Implements hook_wysiwyg_editor_settings_alter().
+ */
+function custom_wysiwyg_wysiwyg_editor_settings_alter(&$settings, $context) {
+  if ($context['profile']->editor == 'ckeditor' && $context['profile']->format == 'filtered_html_comments') {
+    $settings['height'] = 100;
+  }
+}
+
+///**
+// * Implements hook_wysiwyg_plugin().
+//// */
+//function custom_wysiwyg_wysiwyg_plugin($editor, $version) {
+//  switch ($editor) {
+//    case 'ckeditor':
+//        return array(
+//          'code-button' => array(
+//          //  'url' => 'http://......',
+//            'path' => drupal_get_path('module', 'custom_wysiwyg') . '/ckeditor/plugin.js',
+// //           'filename' => 'plugin.js',
+//            'buttons' => array(
+//              'code-button' => t('Code'),
+//            ),
+//            // A list of global, native editor configuration settings to
+//            // override. To be used rarely and only when required.
+////            'options' => array(
+////              'startupOutlineBlocks' => TRUE,
+////            ),
+//            'load' => TRUE,
+////            'internal' => FALSE,
+//          ),
+//        );
+//      break;
+//  }
+//}
+//

@@ -1,0 +1,6 @@
+name = Custom Image
+description = Provides custom image functionality like additional fields(sources,description).
+package = Fields
+dependencies[] = image
+core = 7.x
+version = "7.x-1.0"

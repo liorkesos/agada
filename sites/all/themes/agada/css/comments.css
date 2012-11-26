@@ -1,0 +1,134 @@
+@charset "utf-8";
+/**
+ * @file
+ * Comment Styling
+ */
+
+#comments-region{width:560px;margin:50px 0 0 0;float:right;}
+#comments-region h3{font-size:16px;color:#bc3e24;margin:0;padding:0;}
+
+#agada-form-comment-links{margin:-16px 0 -16px 0;padding:0;}
+#agada-form-comment-links li{display:inline;list-style:none;}
+#agada-form-comment-links li a{text-decoration:none;color:#0b0b0b;font-size:12px;margin:0 3px 0 6px;}
+
+#comments-region textarea{height:40px;background:#FFF;border:1px solid #bdbebe;overflow:auto;}
+
+#comments /* Wrapper for the list of comments and its title */ {
+  margin: 1.5em 0;
+}
+
+#comments h2.title /* Heading for the list of comments */ {
+}
+
+#comments h2.comment-form /* Heading for the comment form */ {
+}
+
+.comment /* Wrapper for a single comment */ {
+	background:#fff;border:1px solid #bdbebe;border-bottom:0;padding:0px 20px  0 0;font-size:12px;color:#58666a;width:576px;
+}
+
+.views-row-last .comment{border-bottom:1px solid #bdbebe;}
+
+#edit-subject--2{width:245px;}
+#comment-form--2{width:568px;border:1px solid #bdbebe;background:#fff;padding:0 10px 10px 20px;margin:10px 0 10px 0;}
+
+.label-same-line{float:right;margin: 0 0 0 10px;}
+
+#comment_action {text-align:center;}
+#comment_action .links{padding:0;width:auto;margin:10px 220px 0 0;float:right;}
+
+.comment-preview /* Preview of the comment before submitting new or updated comment */ {
+  background-color: #ffffea; /* Drupal core will use a #ffffea background. See #1110842 */
+}
+
+.comment.new /* A new comment since the user last viewed the page. */ {
+}
+
+.comment.first /* The first comment in the list of comments */ {
+}
+
+.comment.last /* The last comment in the list of comments */ {
+	
+}
+
+.comment.odd /* An odd-numbered comment in the list of comments */ {
+}
+
+.comment.even /* An even-numbered comment in the list of comments */ {
+}
+
+.comment-unpublished /* Unpublished comments */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. See also the div.unpublished declaration in the nodes.css. */ {
+}
+
+.comment-by-anonymous /* A comment created by an anonymous user */ {
+}
+
+.comment-by-node-author /* A comment created by the node's author */ {
+}
+
+.comment-by-viewer /* A comment created by the current user */ {
+}
+
+h3.comment-title , h3.comment-title a /* Comment title */ {
+	font-size:13px;text-decoration:none;color:#bc3e24;
+}
+.file img{float:right;}
+.file a{color:#bc3e24;float:right;margin:0 3px 0  0;}
+
+.new /* "New" marker for comments that are new for the current user */ {
+  color: #c00;
+}
+
+.comment .user-picture /* The picture of the comment author */ {
+}
+
+.comment .submitted /* The "posted by" information */ {
+}
+
+.comment .content  /* Comment's content wrapper */ {
+	line-height:18px;
+	height:65px;
+	overflow:hidden;
+	margin:-14px 0 0 0;	
+}
+
+.comment .content.open{
+	height:auto;
+	overflow:visible;
+	}
+
+.comment .content p{width:450px;height:auto;}
+
+.comment .user-signature /* The user's signature */ {
+}
+
+.comment ul.links /* Comment links. See also the ul.links declaration in the pages.css. */ {
+}
+
+.indented /* Nested comments are indented */ {
+  /* margin-left: 25px; */ /* Drupal core uses a 25px left margin */
+}
+
+/*CKE EDitor Styles*/
+
+/*End of CKE EDitor Styles*/
+#comment_action li{padding:0;}
+
+.comment_type{float:left;width:45px;height:15px;color:#fff;font-size:12px;text-align:center;line-height:normal;}
+.comment_type.blue{background:#7ba4d8;}
+.comment_type.green{background:#919c7e;}
+.comment_type.red{background:#c96043;}
+
+.open_close_comment{color:#6091ce;}
+
+#edit-field-comment-type-und--2 div{width:auto;float:right;}
+.captcha{width:270px;height:110px;padding:10px;}
+.captcha img{border:1px solid #bdbebe;padding:5px;}
+
+.page-node .form-submit#edit-submit{width:95px;float:left;margin:-32px 0 0 220px;}
+.page-node .form-submit#edit-preview{width:95px;float:left;margin:-32px 0 0 120px;}
+.page-node-edit .form-submit{width:95px;float:none;margin:0 5px 0 5px;}

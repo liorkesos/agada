@@ -1,0 +1,566 @@
+@charset "utf-8";
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+/*
+ * Body
+ */
+ 
+body.html{
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background:url(../images/background.jpg) no-repeat #c0cbad center top;
+}
+
+.cke_icon{filter: !important;}
+.clear{clear:both;}
+#page-wrapper {background:#fff;}
+
+
+/*Messeges */
+	.page-node #messages-top{display:none;}
+	. page-user #messages-bottom{display:none;}
+/*End of Messeges */
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+ 
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+#header{	
+	background:url(../images/header.png) no-repeat;width:960px;height:188px;
+	position:relative;
+	margin: 0 -2px 0 0;
+	padding-bottom: 20px;
+}
+
+
+.node-type-agada-children-story #header , .page-kids-frontpage #header, .kids-body #header{background:url(../images/header2.png) no-repeat;width:960px;height:188px;}
+
+#banner{position:absolute;top:26px;left:3px;width:950px;height:104px;display:none;}
+.node-type-agada-children-story #banner , .page-kids-frontpage #banner, .kids-body #banner{display:block;}
+/*.kids-body #header img{display:none;}*/
+
+#header > img{position:absolute;top:0;left:0;width:960px;height:188px;}
+#header > img#header_transperent{position:absolute;top:0;left:0;height:145px;}
+
+#header .section {}
+
+#logo /* Wrapping link for logo */ {
+ /* position:absolute;top:0;left:0;
+  width:960px;height:188px;
+  margin: 0;
+  padding: 0;
+  z-index:1;*/
+}
+
+#logo img {vertical-align: bottom;}
+
+#name-and-slogan /* Wrapper for website name and slogan */ {float: left;}
+
+h1#site-name,
+div#site-name /* The name of the website */ {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+#site-name a:link,
+#site-name a:visited {color: #000;text-decoration: none;}
+
+#site-name a:hover,
+#site-name a:focus {}
+
+#site-slogan /* The slogan (or tagline) of a website */ {}
+
+.region-header /* Wrapper for any blocks placed in the header region */ {
+ float:left; 
+ margin:13px 0 0 18px;
+ position:relative;
+ z-index:2;
+}
+
+.region-header > div{float:right;}
+
+#block-agada-agada-hello-user{;margin:20px 0 0 0;}
+#online-user{display:inline;}
+#hello-user , .online-title{color:#444241;}
+.online-details{color:#af3b23;}
+
+#agada-user-links{}
+
+#agada-user-links li{
+	display:inline;
+	list-style:none;
+	text-align:center;
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+	float:right;
+	}
+#agada-user-links a{text-decoration:none;font-weight:normal;color:#7D7D7D;}
+#agada-user-links li{margin:0;padding:0;float:right;}
+#agada-user-links .first{width:60px;height:19px;margin:0 0 0 2px;}
+#agada-user-links .last{width:60px;height:19px;border-left:1px solid #7D7D7D;}*/
+#agada-user-links .last a{
+float: left;
+padding-left: 4px;
+
+}
+#agada-user-links li.first {
+
+padding-right: 8px;
+
+}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {}
+
+#main {}
+
+/*
+ * Content
+ */
+#content {}
+
+#content .section {}
+
+.region-highlighted {}
+
+.breadcrumb /* The path to the current page in the form of a list of links */ {
+  padding-bottom: 0; /* Undo system.css */
+}
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title /* Comment title */ {
+  margin: 0;
+}
+
+tr.even /* Some tables have rows marked even or odd. */ {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+}
+
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.status /* Normal priority messages */ {
+}
+
+div.warning,
+tr.warning /* Medium priority messages */ {
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+}
+
+div.error,
+tr.error /* High priority messages. See also the .error declaration below. */ {
+}
+
+.error /* Errors that are separate from div.messages status messages. */ {
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning /* Warnings that are separate from div.messages status messages. */ {
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+div.tabs /* See also the tabs.css file. */ {
+}
+
+.region-help /* Help text on a page */ {
+}
+
+.more-help-link /* Link to more help */ {
+}
+
+.region-content /* Wrapper for the actual page content */ {
+}
+
+ul.links /* List of links */ {}
+
+ul.links.inline {display: block; /* Let the links be inline, but the container be a block. */}
+
+ul.links li {padding: 0 1em 0 0; /* LTR */}
+
+.item-list .pager /* A list of page numbers when more than 1 page of content is available */ {
+  padding: 0 0 0 0;
+  margin: 10px 250px 0 0;
+}
+
+.item-list .pager li /* Each page number in the pager list */ {padding: 0 0 0 0;}
+
+.item-list .pager li{float:right;margin:0 4px 7px 4px;}
+.item-list .pager li img{float:right;margin:4px 0 0 0;}
+
+.feed-icon /* The link to the RSS or Atom feed for the current list of content */ {
+}
+
+.more-link /* Aggregator, blog, and forum more link */ {
+}
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+.region-sidebar-first{}
+
+.region-sidebar-first .section{}
+
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+.region-sidebar-second{}
+
+.region-sidebar-second .section{}
+
+/*
+ * Footer
+ */
+.region-footer{}
+
+/*
+ * Page bottom
+ */
+ 
+.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
+
+.form-submit{background:url(../images/button_line.png) repeat-x center;height:25px;text-align:center;color:#fff;border:0;margin:3px;cursor:pointer;}
+
+#edit-actions #edit-submit--2 , #search-block-form #edit-actions #edit-submit{background:url(../images/search_button.png) no-repeat;width:16px;height:16px;border:0;margin:0 0 0 0;padding-top:2px;position:relative;top:3px;right:-7px;}
+
+
+.form-file{margin:0 5px 0 5px !important;cursor:ponter;}
+
+#fivestar-custom-widget{float:right;margin:-30px 250px 0 0;width:250px;}
+.links{float:left;margin: 20px 180px 0 10px;width:32px;height:32px;}
+
+.addthis_toolbox {
+float: right;
+width: 221px;
+height: 32px;
+position: relative;
+top: -19px;
+left: -90px;
+}
+
+.kids-body .addthis_toolbox {
+position: absolute;
+top: 1335px;
+float: right;
+width: 74px;
+height: 32px;
+
+right: 765px;
+}
+
+div.fivestar-widget .cancel, div.fivestar-widget .star {
+  float: right; /* RTL */
+  width: 20px;
+  height: 19px;
+  overflow: hidden;
+  text-indent: -999em;
+}
+
+div.fivestar-widget .star, div.fivestar-widget .star a {
+  background: url(../images/star.png) no-repeat 0 0; /* RTL */
+  text-decoration: none;
+}
+
+div.fivestar-widget .star.on , div.fivestar-widget .star.on a{background-position: -1px -22px;}
+	
+div.fivestar-widget div.hover a, div.rating div a:hover {background-position: 0 -44px; /* RTL */}
+
+#meta_keywords{width:571px;height:37px;background:#fafafa;border:1px solid #cccaca;margin:10px -10px 0 0;text-align:center;font-size:13px;padding:3px 30px 0 0;}
+#meta_keywords > div{width:560px;text-align:right;overflow:hidden;line-height:16px;}
+#meta_keywords span{color:#c96144;}
+#meta_keywords a{color:#7e886d;text-decoration:none;}
+#meta_keywords a:hover{text-decoration:underline;}
+
+
+/*Right Menu*/
+#menu{width:161px;height:auto;float:right;}
+
+.navigation{float:right;margin:0 10px 20px 10px;width:161px;}
+.navigation .content > div , .navigation .content > div.default{border-bottom:1px solid #e7eff2;font-size:14px;padding-top:3px;margin:0 4px 0 0;cursor:pointer;color:#5e696d;}
+.navigation .content > div.last{border:0;}
+.navigation .content > div span , .navigation .content > div.default span{background:url(../images/side_menu_arrows.png) no-repeat 0 -8px;padding-left:11px;}
+.navigation .content > div.active span{color:#c96144;border:0;background:url(../images/side_menu_arrows.png) no-repeat 0 7px;padding-left:11px;}
+
+.submenu{font-size:13px;color:#5e696d;width:149px;margin:0 -5px 0 0;position:relative;z-index:2;padding:3px 5px 0 5px;display:none;top:-1px;font-weight:normal;}
+.submenu div{width:130px;margin:0 5px 0 0;padding-right:14px;cursor:pointer;}
+.submenu div.current{color:#c96144;}
+.submenu div:hover{text-decoration:underline;}
+
+/*End of Right Menu*/
+
+#sort{width:608px;height:22px;background:#ededed;margin:590px 5px 0 0;text-align:center;font-weight:bold;padding:0 100px 0 0;}
+#sort span{float:right;color:#c96144;margin:0 0 0 10px;}
+#sort input{float:right;margin:2px 0 0 2px;}
+#sort label{float:right;color:#525d60;margin:0 0 0 10px;}
+
+.cke_toolgroup{width:520px;}
+.cke_toolgroup .cke_button{float:right;}
+
+/*Main Page Kids*/
+.page-kids-frontpage #container_kids{
+	width:921px;
+	height:674px;
+	background:#fadeb7;
+	border:1px solid #cccaca;
+	}
+	
+.page-kids-frontpage #content_kids{
+	width:892px;
+	height:619px;
+	background:#fef7ee;
+	border:1px solid #cccaca;
+	margin:15px 13px 0 0;
+	}
+
+.page-kids-frontpage #content_kids_right{
+	width:499px;
+	height:auto;
+	float:right;
+	margin:15px 15px 0 0;
+	}
+	
+.page-kids-frontpage #content_kids_left{
+	width:344px;
+	height:auto;
+	float:right;
+	margin:15px 20px 0 0;
+	}
+
+.page-kids-frontpage #kids_mainpage_player{
+	width:499px;
+	height:278px;
+	float:right;
+	margin:0 0 0 0;
+	}
+
+.page-kids-frontpage #block-views-stories-by-topics-block{
+/*.page-kids-frontpage #kids_mainpage_topics{*/
+	width:477px;
+	height:226px;
+	float:right;
+	margin:26px 0 0 0;
+	background:url(../images/kids/kids_mainpage_topics_title.png) no-repeat center top #fff;
+	border: 1px solid #a2aab5;
+	padding:56px 20px 0 0;
+	}
+	
+.page-kids-frontpage #kids_mainpage_tags_cloud{
+	width:344px;
+	height:120px;
+	float:right;
+	margin:20px 0 0 0;
+	}
+	
+.popular_story{
+	width:321px;
+	height:81px;
+	float:right;
+	margin:0 0 12px 0;
+	background:#fafafa;
+	border:1px solid #e2e2e2;
+	padding: 5px 5px 0 0;
+	}
+	
+.popular_story {text-decoration:none;}
+.popular_story h2:hover{text-decoration:underline;}
+
+.popular_story > img{
+	width:77px;
+	height:77px;
+	float:right;
+	}
+	
+.popular_story h2{
+	color:#4e4d4d;
+	font-size:14px;
+	float:right;
+	margin:10px 10px 0 0;
+	width:230px;
+	height:35px;
+	overflow:hidden;
+	}
+
+.popular_story div{
+	width:230px;
+	float:right;
+	margin:5px 10px 0 0;
+	height:auto;
+	color:#c1533c;
+	font-size:12px;
+	}
+	
+.popular_story div img , .popular_story div span{float:right;}
+.popular_story div img{margin:0 0 0 2px;}
+.popular_story div span{margin: 4px 0 0 12px;}
+
+.topic{
+	width:139px;
+	height:49px;
+	float:right;
+	background:url(../images/kids/kids_topics_button_background.png) no-repeat;
+	text-decoration:none;
+	margin:0 0 28px 20px;
+	}
+	
+.topic h2:hover{text-decoration:underline;}	
+.topic img{float:right;width:27px;height:41px;margin:5px 5px 0 10px;}
+.topic h2{color:#4e4d4d;font-size:14px;float:right;margin:15px 0 0 0;width:90px;height:30px;overflow:hidden;line-height:15px;}
+/*End of Main Page Kids*/
+
+
+/*Golshim Page*/
+
+.page-visitors-page #container_visitors{
+	width:887px;
+	height:674px;
+	margin:20px 0 0 0;
+	}
+	
+.page-visitors-page #main-wrapper #main #content{margin-top:0;}
+	
+.page-visitors-page #container_visitors #page-visitors-page-right{
+	width:523px;
+	height:auto;
+	float:right;
+	margin:0 0 0 15px;
+	background:#fff;
+	border:1px solid #cccaca;
+	padding:10px 25px 0 0;
+	}
+	
+.page-visitors-page #container_visitors #page-visitors-page-left{
+	width:320px;
+	height:auto;
+	float:right;
+	margin:0 0 0 0;
+	background:#fff;
+	border:1px solid #cccaca;
+	}	
+	
+.page-visitors-page-right-title{
+	width:493px;
+	height:22px;
+	color:#fff;
+	font-size:14px;
+	padding: 2px 5px 0 0;
+	margin:0 0 10px 0;
+	}
+.page-visitors-page-right-title.blue{background:#7ca4d8;}
+.page-visitors-page-right-title.green{background:#a2b381;margin-top:15px;}
+
+/*End of Golshim Page*/
+
+
+/*Category Page*/
+
+.taxonomy-term{
+	width:497px;
+	height:154px;
+	border:1px solid #ebebeb;
+	}
+	
+.taxonomy-term .taxonomy-term-right{
+	width:152px;
+	height:151px;
+	float:right;
+	border-left:1px solid #ebebeb;
+	padding:4px 4px 0 0;
+	}
+.html.not-front.no-sidebars.page-taxonomy.page-taxonomy-term.page-taxonomy-term-.section-taxonomy .taxonomy-term .taxonomy-term-right img{
+	border: 5px solid #F4F2F2;
+	width: 138px;
+	height: 138px;
+	}
+.html.not-front.no-sidebars.page-taxonomy.page-taxonomy-term.page-taxonomy-term-.section-taxonomy .taxonomy-term .taxonomy-term-right .field-collection-container{
+ border-bottom:0px;
+
+
+
+
+
+	}	
+	
+.taxonomy-term .taxonomy-term-left{
+	width:329px;
+	height:154px;
+	float:right;
+	padding:0 10px 0 0;
+	}
+/*
+.page-taxonomy-term .term-listing-heading{
+	width:508px;
+	background:#fff;
+	height:auto;
+	padding:10px 10px 0 0;
+	border:1px solid #dedede;
+	}*/
+.page-taxonomy-term .term-listing-heading .vocabulary-agada-tags{display:none;}
+.taxonomy-term{margin:0 0 10px 0;}
+.taxonomy-term .taxonomy-term-left h2{width:315px;font-size:14px;color:#416ba1;float:right;margin:5px 0 5px 0;padding:0 0 0 0;}
+.taxonomy-term .taxonomy-term-left p{width:315px;height:55px;float:right;margin:0 0 5px 0;font-size:14px;line-height:20px;color:#525d60;overflow: hidden;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-tags{width:330px;height:27px;background:#fafafa;borde-top:1px solid #ebebeb;borde-bottom:1px solid #ebebeb;font-size:11px;float:right;margin:2px -10px 0 0;padding:0 10px 0 0;color:#7e886d;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-tags span{color:#c96144;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-tags a{color:#7e886d;text-decoration:none;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-tags a:hover{text-decoration:underline;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-details{width:340px;height:38px;background:#f5f4f4;font-size:12px;float:right;margin:-1px -10px 0 0;padding:2px 0 0 0;color:#7e886d;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-details img{float:right;margin:0 10px 0 0;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-details span{float:right;font-size:12px;color:#c96144;margin:7px 5px 0 0;}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-details a{background:url(../images/more.png) no-repeat left center;float:left;color:#a2b381;text-decoration:none;width:45px;margin:5px 0 0 10px}
+.taxonomy-term .taxonomy-term-left .taxonomy-term-details a:hover{text-decoration:underline;}
+
+ div.taxonomy-term-details div.field-content
+ {
+ margin:7px 0px 0 0;
+ }
+ div.taxonomy-term-details div.field-content
+ {
+ margin:7px 0px 0 0;
+ }
+ /*End of Category Page*/
+
+
+
+

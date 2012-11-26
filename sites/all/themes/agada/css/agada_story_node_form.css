@@ -1,0 +1,8 @@
+
+@charset "utf-8";
+
+.sidebar-second #content {height:auto !important;}
+
+
+#edit-field-users-version , #field-about-story-add-more-wrapper , .form-item-field-children-version-und , #field-external-link-values, #field-bibliography-values, .tabledrag-toggle-weight-wrapper, #field-agada-story-image-und-0-field-agada-image-description-add-more-wrapper , #edit-field-agada-story-image{display:none;}
+

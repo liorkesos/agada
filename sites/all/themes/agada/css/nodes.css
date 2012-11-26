@@ -1,0 +1,115 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+#main-wrapper{padding:4px 5px 0 4px;width:906px;}
+
+#content_tabs{width:270px;height:26px;}
+.node-type-agada-children-story #content_tabs{margin:0 0px 0 0;}
+
+#content_tabs div{width:86px;height:23px;background:#f3f3ef;float:right;margin:0 0 1px 0px;text-align:center;color:#444d37;padding-top:3px;cursor:pointer;}	
+#content_tabs div.active_story_type{background:#7D7D7D;color:#FFF;margin-bottom:0;}
+
+.node-type-agada-children-story #content_tabs div{width:98px;height:24px;padding:2px 3px 0 3px;background:#fbeedc;margin:0 0 0 0;}
+.node-type-agada-children-story #content_tabs div.active_story_type{width:88px;height:24px;background:url(../images/kids/kids_node_active_tab_background.png) no-repeat;}
+
+
+.node /* Node wrapper */ {
+	font-size:14px;line-height:20px;
+}
+
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.node-promoted /* A node that has been promoted to the front page */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished div.unpublished,
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. */ {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
+/* All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+.node-page /* Page content node */ {
+}
+
+.node-article /* Article content node */ {
+}
+
+h2.node-title /* Node title */ {
+}
+
+.node .user-picture /* The picture of the node author */ {
+}
+
+.node .submitted /* The "posted by" information */ {
+}
+
+.node .content /* Node's content wrapper */ {
+}
+
+.node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+}
+.kids-body #white_box p{width:auto;color:#525d60;margin:0 0 0 0;padding:0 0 0 0;}
+#white_box p{width:auto;color:#000000;margin:0 0 0 0;padding:0 0 0 0;}
+#white_box .agada-story-body{width:533px;margin:20px 0 0 0;}
+#white_box .node_pic a:link {
+color:#000000;
+
+}
+
+/*Node Image*/
+.kids-body #white_box .jspScrollable .field-collection-container {float:left;width:auto;height:auto;margin:0px 0 0 0;padding:0 0 0 0;border:0;position:relative;padding-top: 11px;margin-left: -2px;top:0px;} 
+.kids-body #white_box .field-collection-container {float:left;width:200px;height:auto;margin:-5px 0 0 0;padding:0 0 0 0;border:0;position:relative;padding-top: 31px;margin-left: -2px;top:0px;} 
+#white_box .field-collection-container {float:left;width:202px;height:auto;margin:0px 22px 0 25px;padding:0 0 0 0;border:0;}
+
+#white_box .field-collection-container .field-collection-view{float:left;width:200px;height:autopx;margin:0 0 0 0;padding:0 0 0 0;border:0;}
+
+.node-type-agada-children-story #white_box .field-collection-container{width:543px;height:370px;}
+.node-type-agada-children-story #white_box .field-collection-container .field-collection-view{width:543px;height:358px;}
+
+
+.node_pic{width:202px;height:auto;background:#f3f3ef;float:left;font-size:12px;margin:0px 0 0 0;position:relative;}
+.node-type-agada-children-story .node_pic{width:543px;height:358px;}
+
+.kids-body .node_pic > p{width:205px !important;height:70px;overflow:hidden;font-size:12px;margin: 5px 5px 0 0 !important;line-height:17px;padding:0 0px 0 0 ! important;}
+.node_pic > p{width:195px !important;height:auto;overflow:hidden;font-size:12px;margin: 0px 0px 0 0 !important;line-height:17px;padding:10px 10px 5px 0px ! important;}
+
+.node_pic_title{font-size:12px;color:#804848;margin:0 0 0 0;padding:0 5px 0 0;width:205px;}
+.node_pic_copy{font-size:12px;padding:0 9px 0 0;position:absolute;top:255px;right:0;font-weight:bold;}
+
+.node-type-agada-children-story .field-name-field-sound{
+width: 170px;
+padding-right: 23px;
+float: left;
+margin: -22px 0 0 0;}
+/*End of Node Image*/
+
