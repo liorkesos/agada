@@ -4546,6 +4546,8 @@ margin-top:-15px;
 }
 #block-custom-wysiwyg-tooltip-box .open_close_block  .close img{
 margin-top:-15px;
+margin-bottom:90px;
+direction:rtl;
 
 }
 
